@@ -6,32 +6,57 @@ body, html {
 }
 
 .container {
-  width: 50%;
-  max-width: 900px;
-  margin: 10px auto;
+  text-align: center;
+  vertical-align: middle;
+  max-width: 600px;
+  width: 70%;
+  margin: auto;
 }
 
 .row {
   width: 100%;
   display: block;
   padding: 0;
-  white-space: nowrap;
+  margin: 0;
+  /*white-space: nowrap;*/
 }
 
 .col-1-2 {
-  width: 50%;
+  width: 49%;
   display: inline-block;
-  margin: 0;
-  /*border: 1px solid black;*/
 }
 
 .move-images {
+  max-width: auto;
+  max-height: 15px;
   border: 1px solid black;
   display: inline-block;
   width: 100%;
 }
 
 img {
-  width: 33%;
-  /*display: inline;*/
+  padding-top: 5px;
+  margin: 5px;
+  height: 45px;
+}
+
+#computer-name {
+  padding-bottom: 15px;
+  padding-top: 5px;
+}
+
+#user-move {
+  height: 275px;
+  border: 1px black solid;
+}
+
+#computer-move {
+  height: 275px;
+  border: 1px black solid;
+}
+
+#game-prompt {
+  margin-top: 15px;
+  border: 1px black solid;
+  border-radius: 25px;
 }
